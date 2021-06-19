@@ -9,7 +9,7 @@ module.exports = async (client) => {
     │ → Commands: ${client.cmds.size}
     │ → Bot: ${client.user.tag}`);
     
-    client.user.setStatus("idle");
+    client.user.setStatus(client.discord.status);
 
-    client.user.setActivity("Onraine");
+    client.user.setActivity(client.discord.activity);
 };
