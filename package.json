@@ -1,0 +1,17 @@
+{
+  "name": "ravena-musica",
+  "main": "index.js",
+  "author": "PH",
+  "version": "4.0.0",
+  "repository": "**",
+  "description": "RVNM",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "cpu-stat": "^2.0.1",
+    "discord-buttons": "^3.2.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2"
+  }
+}
