@@ -7,14 +7,14 @@ module.exports = {
     prefix: ".",
     presence: {
       status: "online",
-      activity: {
+      activities: [{
         name: "with my tickets",
         type: "PLAYING",
-      },
+      }],
     },
   },
   auth: {
-    token: "ODk1ODcxMDAxOTkxMjA0OTE0.YV-24w.MhWQukCBQau2_vDmbwfqdXgUIYQ",
+    token: "",
   },
   ticket: {
     emojiOpen: "🎫", // [padrão: 🎫] Emoji para abrir o ticket. Caso personalizado, use o ID do emoji.
