@@ -1,17 +1,17 @@
 {
-  "name": "ravena-musica",
-  "main": "index.js",
-  "author": "PH",
-  "version": "4.0.0",
-  "repository": "**",
-  "description": "RVNM",
+  "name": "discordjs-ticketbot",
+  "version": "1.0.0",
+  "description": "Simples bot para te ajudar com tickets!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/http-ph/discordjs-ticketbot.git"
+  },
+  "author": "http-ph",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "cpu-stat": "^2.0.1",
-    "discord-buttons": "^3.2.1",
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2"
+    "discord.js": "^13.3.1"
   }
 }
